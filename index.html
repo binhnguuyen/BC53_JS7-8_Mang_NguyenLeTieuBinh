@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bài tập luyện mảng</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="container">
+        <!-- Câu 1 -->
+        <br><br><br><br>
+        <label for="">Nhập vào số n</label>
+        <input type="number" name="indexOffArr" id="indexOffArr" class="form-control" placeholder="Nhập số n" aria-describedby="helpId" />
+        <br>
+        <button onclick="addNumToArr()" id="">
+            Thêm số n vào mảng
+        </button>
+        <div id="result1" class="bg-success"></div>
+        
+        <!-- Câu 2 -->
+        <br><br>
+        <button onclick="countPosNum()" id="">
+            Đếm số dương trong mảng
+        </button>
+        <div id="result2" class="bg-success"></div>
+
+        <!-- Câu 3 -->
+        <br><br>
+        <button onclick="findMinNum()" id="">
+            Tìm số nhỏ nhất trong mảng
+        </button>
+        <div id="result3" class="bg-success"></div>
+
+        <!-- Câu 4 -->
+        <br><br>
+        <button onclick="findMinPosNum()" id="">
+            Tìm số dương nhỏ nhất trong mảng
+        </button>
+        <div id="result4" class="bg-success"></div>
+
+        <!-- Câu 5 -->
+        <br><br>
+        <button onclick="findLastEvenNum()" id="">
+            Tìm số chẵn cuối cùng trong mảng
+        </button>
+        <div id="result5" class="bg-success"></div>
+
+        <!-- Câu 6 -->
+        <br><br>
+        <label for="">Nhập vào số  muốn đổi</label>
+        <input type="number" name="numToChange1" id="numToChange1" class="form-control" placeholder="Nhập số thứ nhất" aria-describedby="helpId" />
+        <input type="number" name="numToChange2" id="numToChange2" class="form-control" placeholder="Nhập số thứ hai" aria-describedby="helpId" />
+        <br>
+        <button onclick="exchangePosNum()" id="">
+            Đỗi chỗ 2 giá trị trong mãng
+        </button>
+        <div id="result6" class="bg-success"></div>
+
+        <!-- Câu 7 -->
+        <br><br>
+        <button onclick="sortInAscending()" id="">
+            Sắp xếp theo thứ tự tăng dần
+        </button>
+        <div id="result7" class="bg-success"></div>
+
+        <!-- Câu 8 -->
+        <br><br>
+        <button onclick="findPrimeNum()" id="">
+            Tìm số nguyên tố đầu tiên
+        </button>
+        <div id="result8" class="bg-success"></div>
+
+        <!-- Câu 9 -->
+        <br><br>
+        <label for="">Nhập vào dãy số thực</label>
+        <input type="number" name="integerNum" id="integerNum" class="form-control" placeholder="Nhập số thực" aria-describedby="helpId" />
+        <br>
+        <button onclick="addIntNumToArr()" id="">
+            Thêm số thực vào mảng
+        </button>
+        <div id="result9" class="bg-success"></div>
+        <br><br>
+        <button onclick="findIntegerNum()" id="">
+            Tìm số lượng số nguyên trong mảng
+        </button>
+        <div id="result10" class="bg-success"></div>
+
+        <!-- Câu 10 -->
+        <br><br>
+        <button onclick="compareNum()" id="">
+            So sánh số lượng số âm và số dương
+        </button>
+        <div id="result11" class="bg-success"></div>
+
+    </div>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/method.js"></script>
+    <script src="./js/index.js"></script>
+</body>
+
+</html>
